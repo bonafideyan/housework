@@ -30,7 +30,7 @@ export PATH=$PATH:/path/to/depot_tools
 ```
 ```
 git config --global user.name "John Doe"
-git config --global user.email "jdoe@email.com"
+git config --global user.email "bonafideyan@gmail.com"
 git config --global core.autocrlf false
 git config --global core.filemode false
 git config --global color.ui true
@@ -77,7 +77,7 @@ systemd-resolve --status
     ...
 sudo systemctl restart systemd-resolved
 ```
-But that did not resolve the elementary problem, At last, I realized that maybe
+But that did not solve the elementary problem, At last, I realized that maybe
 DNSSEC is culprit, so I modified /etc/systemd/resolved.conf and restart DNS service.
 ```
 DNSSEC=no
